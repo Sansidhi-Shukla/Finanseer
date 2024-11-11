@@ -1,0 +1,116 @@
+.wrapper .chart-wrapper{
+    display:flex;
+    justify-content : center;
+    align-items : center ;
+    width : 100vw;
+    height : 90vh ;
+    
+}
+
+.custom-input{
+    border-width : 0 ;
+    border-bottom-width: 1px ;
+    width : 100%;
+    padding : 0.5rem 0rem;
+    font-size : 1rem;
+    border-radius : 0 ;
+}
+
+.custom-input{
+  margin-top : -1rem !important ;
+}
+
+.custom-input:focus{
+    outline : none;
+    opacity : 1;
+    transition : all 0.3s;
+}
+
+.custom-input:placeholder{
+    color:rgba(0,0,0,0.5);
+}
+
+.select-input{
+    width : 30% ;
+    margin-right : 10 ;
+    display : flex ;
+    align-items : center ;
+    box-shadow : var(--shadow-color);
+    border-radius : 0.5rem !important;
+    padding : 0.2rem 0.5rem ;
+    background-color : var(--white);
+}
+
+.select-input-2 > div{
+    border-width : 0px !important ;
+    border-bottom-width : 1px !important ;
+    border-radius:0 !important ;
+    border-color:#000 !important ;
+}
+
+.select-input > div {
+    border : 0px solid #fff ;
+}
+
+.chart-wrapper{
+    height : auto;
+    border-radius : .5rem ;
+    box-shadow : var(--shadow-color);
+    justify-content: space-around ;
+    min-height: 800px !important;
+    display: flex;
+    flex-direction: row; /* Aligns children (charts) vertically */
+    gap: 2px; /* Adds some space between the charts */
+    align-items: center; /* Centers the charts horizontally (optional) */
+}
+
+.heading{
+    font-family: "Montserrat", sans-serif;
+    font-size : 1.5rem;
+    font-weight : 800;
+    margin-top : 0; 
+}
+
+.chart-container {
+    border: 2px solid #ddd; /* Light border */
+    border-radius: 10px; /* Rounded corners */
+    padding: 20px; /* Space inside the box */
+    background-color: #fff; /* White background */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional shadow */
+    width: 500px; /* Adjust width of each chart box */
+    height: auto; /* Adjust height automatically */
+}
+
+.btn {
+  color: var(--theme);
+  text-align: center;
+  width: 100%;
+  margin: 0.5rem 0rem;
+  padding: 0.5rem !important;
+  background-color: #fff;
+  border: 1px solid var(--theme);
+  border-radius: 0.25rem;
+  cursor: pointer;
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  height: auto !important;
+}
+
+.btn:hover {
+  background-color: var(--theme);
+  color: #fff;
+  transition: all 0.3s;
+}
+
+.btn-blue {
+  background-color: var(--theme);
+  color: #fff;
+}
+
+.btn-blue:hover {
+  background-color: #fff !important;
+  color: var(--theme) !important;
+  transition: all 0.3s;
+}
+

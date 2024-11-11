@@ -1,0 +1,55 @@
+.input-flex{
+  display : flex ;
+  justify-content : flex-start ;
+  align-items : center ;
+  gap: 0.5rem ;
+  width : 100% ;
+  box-shadow : var(--shadow-color);
+  border-radius : 3rem ;
+  padding : 0rem , 0.5rem;
+}
+
+.input-flex input{
+  width:90%;
+  padding : 0.5rem ;
+  border :0;
+}
+
+.input-flex input:focus{
+  outline : none ;
+}
+
+.table-section{
+    width : 100% ;
+    padding : 0rem 2rem ;
+}
+
+.filter-table{
+    display : flex ;
+    justify-content : space-between ;
+    gap : 1rem ;
+    align-items : center ;
+    margin-bottom : 1rem ;
+}
+
+.import-export{
+    display:flex;
+    justify-content : center ;
+    gap : 1rem ;
+    width : 400px ;
+}
+
+.sort-table{
+    display:flex;
+    justify-content : space-between ;
+    align-items : center ;
+    width : 100% ;
+    margin-bottom : 1rem ;
+}
+
+.my-table{
+    box-shadow : var(--shadow-color);
+    border-radius : 0.5rem !important ;
+    padding : 2rem ;
+    margin-bottom : 4rem ;
+}
